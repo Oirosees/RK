@@ -134,15 +134,15 @@
 	skill_level = 5
 
 /datum/anvil_recipe/armor/steel/coatplates
-	name = "Coat Of Plates (+1 Cloth)"
+	name = "Coat Of Plates (+1 steel) (+1 Cloth)"
 	req_bar = /obj/item/ingot/steel
-	additional_items = list(/obj/item/natural/cloth)
+	additional_items = list(/obj/item/ingot/steel, /obj/item/natural/cloth)
 	created_item = /obj/item/clothing/suit/roguetown/armor/brigandine/coatplates
 
 /datum/anvil_recipe/armor/steel/brigandine
-	name = "Brigandine (+1 Steel) (+2 Cloth)"
+	name = "Brigandine (+2 Steel) (+2 Cloth)"
 	req_bar = /obj/item/ingot/steel
-	additional_items = list(/obj/item/ingot/steel, /obj/item/natural/cloth, /obj/item/natural/cloth)
+	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/natural/cloth, /obj/item/natural/cloth)
 	created_item = /obj/item/clothing/suit/roguetown/armor/brigandine
 
 /datum/anvil_recipe/armor/steel/chaincoif
