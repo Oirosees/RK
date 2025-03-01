@@ -102,3 +102,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	grid_height = 64
 	grid_width = 32
+
+/datum/outfit/job/roguetown/puritan/pre_equip
+beltl = /obj/item/ammo_holder/bullet/runed
+beltr = /obj/item/gun/ballistic/revolver/grenadelauncher/runelock_rk
