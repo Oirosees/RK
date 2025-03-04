@@ -17,6 +17,3 @@
 /obj/item/clothing/wrists/roguetown/splintarms
 	max_integrity = 200
 	armor_class = ARMOR_CLASS_LIGHT
-
-/obj/item/clothing/suit/roguetown/armor/plate
-	body_parts_covered = CHEST|GROIN|VITALS|ARMS
