@@ -185,7 +185,7 @@
 			// parrying while knocked down sucks ass
 			if(!(mobility_flags & MOBILITY_STAND))
 				prob2defend *= 0.65
-			prob2defend = clamp(prob2defend, 5, 90)
+			prob2defend = clamp(prob2defend, 5, 99)
 			if(src.client?.prefs.showrolls)
 				to_chat(src, span_info("Roll to parry... [prob2defend]%"))
 
